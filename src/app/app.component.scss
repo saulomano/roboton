@@ -1,0 +1,113 @@
+$h1-font-size: 								4.2rem !default;
+$h2-font-size: 								3.2rem !default;
+$h3-font-size: 								2.8rem !default;
+$h4-font-size: 								2.4rem !default;
+$h5-font-size: 								2.0rem !default;
+$h6-font-size: 								1.6rem !default;
+$color-grey: 					#f1f1f1 !default;
+$color-green: #8BBF1F;
+
+h1,
+h1 span { 
+	font-size: $h1-font-size;
+}
+
+h2,
+h2 span { 
+	font-size: $h2-font-size; 
+}
+
+h3,
+h3 span { 
+	font-size: $h3-font-size; 
+}
+
+h4,
+h4 span { 
+	font-size: $h4-font-size; 
+}
+
+h5,
+h5 span { 
+	font-size: $h5-font-size; 
+}
+
+h6,
+h6 span { 
+	font-size: $h6-font-size; 
+}
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+	font-family: inherit;
+}
+
+h1.margin { 
+	margin-bottom: .7em;
+	margin-top: .5em;
+}
+h2.margin { 
+	margin-bottom: .7em;
+	margin-top: .5em;
+}
+h3.margin { 
+	margin-bottom: .7em;
+	margin-top: .5em;
+}
+h4.margin { 
+	margin-bottom: .7em;
+	margin-top: .5em;
+}
+h5.margin { 
+	margin-bottom: .7em;
+	margin-top: .5em;
+}
+h6.margin { 
+	margin-bottom: .7em;
+	margin-top: .5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	small {
+		font-size: 0.7em;
+		color: $color-grey;
+	}
+}
+
+$font-family-primary: Roboto, 'Helvetica Neue', sans-serif !default;
+$font-family-secondary: Dosis, 'Helvetica Neue', sans-serif !default;
+
+
+$color-secondary: 			#07b9c1;
+$color-secondary-light:	#2998ff;
+$color-secondary-dark:  #5643fa;
+
+$color-white: 				#fff   ;
+$color-grey: 					#bcbcbc;
+$color-grey-light:		#dfdfdf;
+$color-black:       	#202020;
+$color-black-light:		#606060;
+
+$color-dashboard-black:       	#3a3a3a;
+$color-dashboard-black-light:		#565656;
+
+$border-radius-default: 6px;
+
+
+// Roboto weights
+$font-primary-light:      300 !default;
+$font-primary-regular:    400 !default;
+$font-primary-medium:     500 !default;
+$font-primary-bold:       700 !default;
+$font-primary-black-bold: 900 !default;
+
+// Dosis weights
+$font-secondary-extra-light: 200 !default;
+$font-secondary-light:       300 !default;
+$font-secondary-regular:     400 !default;
+$font-secondary-medium:      500 !default;
+$font-secondary-semi-bold:   600 !default;
+$font-secondary-bold:        700 !default;
+$font-secondary-extra-bold:  800 !default;
+
+$font-weight-primary:   $font-primary-regular !default;
+$font-weight-secondary: $font-secondary-regular !default;

@@ -1,0 +1,30 @@
+@import "../../app.component";
+
+.navbar-custom {
+    background-color: $color-green;
+}
+//change the brand and text color 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(224, 19, 19, 0.8);
+  
+
+}
+// change the link color 
+.navbar-custom .navbar-nav .nav-link {
+    font-weight: bold;
+    font-family: DINNextRoundedLTPro-Regular;
+    font-size: 16px;
+    color: white;
+}
+// change the color of active or hovered links
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    font-family: DINNextRoundedLTPro-Regular;
+    font-size: 16px;
+    font-weight: bold;
+    color: #494949;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}

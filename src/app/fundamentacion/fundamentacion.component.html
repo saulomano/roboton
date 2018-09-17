@@ -1,0 +1,106 @@
+<div class="">
+	<div class="row d-flex justify-content-center " >
+		<p class="impact-text-large fundamentacion-title w-75 mx-auto" >Fundamentación de la robótica educativa</p>
+	</div>
+	<div class="row d-flex justify-content-center w-75 mx-auto">
+    <P class="impact-text-large text-gray">La robótica educativa es una estrategia de aprendizaje interdisciplinaria que emplea robots para potenciar el desarrollo de  <br/>			habilidades y competencias de los alumnos como el pensamiento computacional y la programación.</P>
+	</div>
+	<div class="row d-flex justify-content-around w-75 mx-auto" >
+		<div class="mx-auto" >
+			<img class="img-fluid" (click)="tabSelect=1"  [src]="tabSelect==1 && 'assets/images/1_on.png' || 'assets/images/1_off.png'" class="pointer">
+		</div>
+		<div class="mx-auto" >
+			<img class="img-fluid"  (click)="tabSelect=2" [src]="tabSelect==2 && 'assets/images/2_on.png' || 'assets/images/2_off.png'" class="pointer">
+		</div>
+		<div class=" mx-auto" >
+			<img  class="img-fluid"  (click)="tabSelect=3" [src]="tabSelect==3 && 'assets/images/3_on.png' || 'assets/images/3_off.png'" class="pointer">
+		</div>
+	</div>
+</div>
+
+<ng-container *ngIf="tabSelect==1">		
+	
+	<div class="row h-100 comoEmpezar"  >					
+		<div class="col-sm-12 my-auto  ">
+				<div class="w-75 mx-auto">
+					<h4 class="margin ">¿POR QUÉ INCORPORAR EL PENSAMIENTO COMPUTACIONAL EN LAS ESCUELAS?</h4>
+
+					<p > Desde la Dirección General de Cultura y Educación consideramos que el Pensamiento Computacional constituye una lógica de trabajo que, dentro del campo educativo, favorece la implementación de actividades creativas y colaborativas en pos del desarrollo de la capacidad de resolución de problemas de la vida cotidiana. Asimismo, permite al alumno adquirir habilidades y elaborar estrategias para pasar de ser consumidor de tecnología a productor de la misma. <br/><br/>
+
+						Las estrategias de Programación y Robótica no se instalan en la educación como fin último para atender solamente aprendizajes relacionados con la formación científico-tecnológica: estos saberes son fundamentales para el cultivo de actitudes científicas básicas como el asombro, la curiosidad, el análisis y la investigación; a la vez que impulsan el desarrollo de otras habilidades fundamentales relacionadas con la resolución de problemas y la toma de decisiones, haciendo hincapié en la seguridad en uno mismo, el liderazgo, la autoestima, la búsqueda de desafíos y el trabajo en equipo.
+						</p>
+
+					<img  class="img-fluid" src="assets/images/image_pensamiento_computacional.png" >
+							
+					<h4 class="margin">EL APRENDIZAJE BASADO EN PROYECTOS</h4>
+
+					<p >El desarrollo del Pensamiento Computacional se integra con el paradigma del Aprendizaje Basado en Proyectos (ABP), una estrategia de enseñanza fundamentada en la utilización de proyectos realistas para fomentar la adquisición de saberes y competencias. Se trata de una experiencia de aprendizaje significativo y es por ello que sugerimos crear propuestas que orienten el trabajo participativo de los alumnos para que ellos mismos puedan explorar, conocer, construir, crear y recrear el contexto sociocultural.
+					</p>	
+				</div>			
+				</div>
+			</div>
+		</ng-container>
+
+		<ng-container *ngIf="tabSelect==2">		
+	
+				<div class="row h-100 comoEmpezar"  >					
+						<div class="col-sm-12 my-auto  ">
+								<div class="w-75 mx-auto">
+				
+					<h4 class="margin" >¿QUÉ ES LA PROGRAMACIÓN?</h4>
+
+					<p>La programación es una de las áreas más importantes de las ciencias de la computación y del pensamiento computacional. Es reconocida como una disciplina orientada al desarrollo de una serie de habilidades de abstracción y operacionalidad que puede verse como el proceso de diseñar y escribir una secuencia de instrucciones en un lenguaje determinado que pueda ser entendido y posteriormente reproducido por un autómata.</p>
+
+					
+					<p>“Para un niño, ser él quien decide y dirige una acción, y que como por arte de magia una iniciativa suya deviene realidad, es doblemente satisfactorio. Le da autonomía y lo hace sentir responsable e importante. Ver y no imaginar, comprobar que dio una orden y que como consecuencia algo sucedió, demuestra su capacidad y su éxito. La motivación nace de su propio logro: él es causa y efecto de su propia decisión”.
+						</p>
+					<p style="text-align: right !important; font-weight: bold !important;">Paula y Valeria De Elía</p>
+					
+					<h4 class="margin">¿POR QUÉ PROGRAMAR EN EL AULA?</h4>
+
+
+					<p>Los beneficios que obtienen nuestros alumnos al aprender a programar están vinculados, en primer lugar, al pensamiento y su articulación con el entorno; en segundo lugar, al desarrollo de las habilidades y/o competencias del Pensamiento Computacional que tienen que ver con el desarrollo del pensamiento abstracto, del pensamiento lógico-matemático y del pensamiento algorítmico. Cuando se habla de Programación, muchas veces se habla de “enseñar a pensar” en tanto pone en marcha procesos creativos que pueden ser realizados por grupos de trabajo (aprendizaje colaborativo). Además, contribuye al fortalecimiento de diferentes inteligencias a partir de proyectos compartidos en los que se ponen en juego las diversas áreas de conocimiento desde lo interpersonal e intrapersonal. Entendemos que enseñar a programar permite desarrollar la capacidad de previsión, la comprobación de resultados, la optimización de recursos y la toma de decisiones.
+					   
+						</p>
+						<img  class="img-fluid" src="assets/images/image_programacion.png" >
+				
+					</div>			
+				</div>
+			</div>
+		</ng-container>
+
+
+
+				<ng-container *ngIf="tabSelect==3">		
+	
+				<div class="row h-100 comoEmpezar"  >					
+						<div class="col-sm-12 my-auto  ">
+								<div class="w-75 mx-auto">
+	
+					<h4 class="margin">¿A QUÉ LLAMAMOS ROBÓTICA?</h4>
+
+					<p>La Robótica constituye un área dentro de las Ciencias de la Computación que involucra automatización de tareas, Cibernética y Programación, entre otros aspectos inherentes al Pensamiento Computacional. La Robótica puede concebirse como un “medio de aprendizaje” en tanto permite el paso de las creaciones de un estado “mental” a uno físico, resultado de la combinación entre innovación educativa, propuesta pedagógica y recursos didácticos. La conjugación de estos procesos permite ir más allá del funcionamiento del robot, promoviendo el desarrollo de competencias relacionadas con la toma de decisiones, la formación científico-tecnológica y que propicien un clima áulico en lo que respecta a incentivar relaciones interpersonales, así como situaciones cotidianas de enseñanza en las que el trabajo colaborativo es fundamental.</p>
+
+					
+					<h4 class="margin">¿POR QUÉ INCORPORAR ROBÓTICA EN LAS ESCUELAS?</h4>
+
+
+					<p>Debido a su carácter esencialmente colaborativo, tanto la Robótica como la Programación resultan fundamentales en la promoción del aprendizaje entre pares, que forma parte de los modos de construcción de conocimiento y de las culturas del mundo del trabajo de la sociedad digital. Como característica fundamental, la Robótica Educativa favorece los procesos de creación a partir del uso y manipulación de diversos materiales. Asimismo, la Robótica permite a los alumnos materializar el Pensamiento Computacional. Es decir, vivenciar el paso de lo “mental” a lo “físico”, hacer tangible el acierto/error y despertar nuevas vocaciones.  
+						
+						</p>
+						<img  class="img-fluid"  src="assets/images/image_pensamiento_robotica.png" >
+					</div>			
+				</div>
+			</div>
+		</ng-container>
+
+
+
+		<div class="row col-12">
+	<a href="https://goo.gl/forms/bvPHnq7cuocWqFvd2"  target="_blank" rel="noopener noreferrer"  ng-disabled="true">
+	<img class="img-fluid" src="/assets/img/banner/slider_contanos.jpg" alt="Logo">
+	</a>
+	
+	</div>	
+
+

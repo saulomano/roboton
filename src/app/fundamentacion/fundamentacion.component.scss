@@ -1,0 +1,75 @@
+@import "src/app/app.component.scss";
+
+
+.fundamentacion-title{
+    text-align: center; 
+    margin-top: 20px;
+     font-size: 40px; 
+     color: #727272;
+      font-family: pacifico-regular, sans-serif;
+}
+.text-gray{
+    text-align: center;
+     margin-top: 14px;
+      font-size: 18px; 
+      color: #4D4D4D; 
+      font-family: DINNextRoundedLTPro-Light;
+}
+
+.fondo-gris{
+    background-image: url('/assets/images/fondo123_section.png');
+}
+
+.comoEmpezar {
+	background-color: $color-white;
+
+	h1 {
+		color: black;
+		font-family: $font-family-secondary;
+		font-weight: $font-secondary-medium;
+	}
+
+	.mayus{
+		font-size: 2rem;
+	}
+
+	p {
+		color: $color-black-light;
+		font-family: sans-serif;
+		font-weight: $font-primary-light;
+		font-size: 1.5rem;
+		line-height: 2.5rem;
+		text-align: justify;
+		margin-bottom: 3rem;
+		margin-top: 3rem;
+	}
+
+	&--banner {
+		text-align: center;
+		padding-top: 3rem;
+
+		p	{
+			color: $color-white;
+			font-size: 150%;
+		}
+	}
+
+	&--logo {
+		width: 15%;
+		height: auto;
+	}
+
+	&--head {
+		text-align: center;
+		padding: 3rem 0;
+		color: $color-white;
+
+		h2 {
+			font-family: $font-family-secondary;
+			font-weight: $font-secondary-medium;
+			font-size: 4rem;
+		}
+	}
+
+	
+}
