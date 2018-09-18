@@ -8,11 +8,14 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { FundamentacionComponent } from './fundamentacion/fundamentacion.component';
 import { CommonModule } from '@angular/common';
 import {  RouterModule } from '@angular/router';
+import { NoticiasComponent } from './noticias/noticias.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FundamentacionComponent
+    FundamentacionComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +23,8 @@ import {  RouterModule } from '@angular/router';
     UiModule,
     NgbModule,
     CommonModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
     ],
   providers: [],
   bootstrap: [AppComponent]
