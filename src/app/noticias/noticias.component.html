@@ -1,3 +1,12 @@
-<p>
-  noticias works!
-</p>
+
+<div class="row mb-2">
+  <div class="card card-block h-100 justify-content-center"  *ngFor="let noticia of noticias">
+<div class="card " style="width: 18rem; height:15rem" >
+  <img class="card-img-top" [src]="staticContent+noticia.thumbnail" alt="Card image cap">
+  <div class="card-body">
+      <h5 class="card-title">{{ noticia.title }}</h5>
+    <p class="card-text">{{ noticia.summary }} </p>
+  </div>
+</div>
+</div>
+</div>

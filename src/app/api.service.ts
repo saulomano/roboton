@@ -5,8 +5,8 @@ import { HttpClient} from '@angular/common/http';
 })
 export class ApiService {
 
-API_URL  =  'https://edurobotica.abc.gob.ar//api';
-
+  API_URL  =  'http://35.226.12.143:9000/api';
+STATIC_CONTENT = 'http://35.226.12.143:9000';
 
   constructor(private  httpClient:  HttpClient) { }
 
