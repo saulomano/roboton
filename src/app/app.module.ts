@@ -9,13 +9,15 @@ import { FundamentacionComponent } from './fundamentacion/fundamentacion.compone
 import { CommonModule } from '@angular/common';
 import {  RouterModule } from '@angular/router';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { InstitucionalComponent } from './institucional/institucional.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     FundamentacionComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    InstitucionalComponent
   ],
   imports: [
     BrowserModule,
