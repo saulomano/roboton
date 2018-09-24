@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
 import {  RouterModule } from '@angular/router';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { InstitucionalComponent } from './institucional/institucional.component';
+import { KitsComponent } from './kits/kits.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     FundamentacionComponent,
     NoticiasComponent,
-    InstitucionalComponent
+    InstitucionalComponent,
+    KitsComponent
   ],
   imports: [
     BrowserModule,
